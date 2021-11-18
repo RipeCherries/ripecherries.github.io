@@ -26,6 +26,17 @@ $(function(){
         nextArrow: '<button class="banner-section__slider-btn product-slider__slider-btnnext"><img src="images/arrow-black-right.svg" alt="arrow-right"></button>'
     });
 
+    $('.product-item__favorite').on('click', function() {
+        $('.product-item__favorite').toggleClass('product-item__favorite-active')
+    });
+
+    $('.product-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: '<button class="banner-section__slider-btn product-slider__slider-btnprev"><img src="images/arrow-black-left.svg" alt="arrow-left"></button>',
+        nextArrow: '<button class="banner-section__slider-btn product-slider__slider-btnnext"><img src="images/arrow-black-right.svg" alt="arrow-right"></button>'
+    });
+
     $('.filter-style').styler();
 
     $('.filter__item-drop, .filter__extra').on('click', function(){
