@@ -727,3 +727,35 @@ body {
 .social-list__item + .social-list__item {
     margin-left: 30px;
 }
+
+.adress-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress-title,
+.adress-time__title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.adress-title span {
+    font-weight: 400;
+}
+
+.adress-time__inner {
+    padding: 0 80px;
+    text-align: center;
+}
+
+.working-mode__wrapper {
+    text-align: left;
+}
+
+.working-time span {
+    font-weight: 700;
+    color: #1C62CD;
+}
