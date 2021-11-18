@@ -759,3 +759,74 @@ body {
     font-weight: 700;
     color: #1C62CD;
 }
+
+.payment-title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.payment-about {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    color: #656464;
+    margin-bottom: 10px;
+}
+
+.various-title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.various__inner {
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.cash-title {
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #1C62CD;
+}
+
+.cash-about,
+.card-about {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    color: #656464;
+}
+
+.cash-list li,
+.card-list li {
+    list-style: square;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    color: #656464;
+    margin-left: 15px;
+}
+
+.card-title {
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 20px;
+    margin: 10px 0 5px;
+    color: #1C62CD;
+}
+
+.payment-systems {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    color: #656464;
+    margin-top: 5px;
+}
