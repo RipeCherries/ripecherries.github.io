@@ -880,6 +880,11 @@ button.catalog__filter-btngrid, button.catalog__filter-btnline{
     transition: all .3s;
 }
 
+.fix{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
 .product-item:hover .product-item__hover-text {
     opacity: 1;
     color: #2F3035;
